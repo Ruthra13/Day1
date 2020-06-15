@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@200;400;700;800&display=swap');
+
+* {
+	padding: 5px;
+	border: 100px;
+}
+
+body {
+	font-family: 'Nunito Sans', sans-serif;
+	font-size: 15px;
+	background-image: url(assets/background-image1.png);
+	background-repeat: no-repeat;
+	background-size: 60%;
+	/* margin: 40px 100px; */
+	background-position: right;
+}
+
+#icon {
+	width: 150px;
+	max-height: 350px;
+	border: 0px solid black;
+	border-image-width: 1.7em;
+}
+
+
+.second_part {
+	line-height: 1px;
+	margin-left: 30px;
+}
+
+#head {
+	font-weight: 900;
+	font-size: 35px;
+	text-shadow: 1.3px 1.3px;
+}
+
+#head1 {
+	color: gray;
+}
+
+.row1 {
+	color: white;
+	background-color: orangered;
+	font-weight: normal;
+}
+
+.row_common {
+	font-weight: 600;
+}
+
+.row_column {
+	font-weight: 600;
+}
+
+.link {
+	text-decoration: none;
+	color: blue;
+	font-weight: 500;
+	cursor: pointer;
+}
+
+th,
+td {
+	border-bottom: 1px solid lightgray;
+}
+
+.column2 {
+	color: gray;
+}
+
+
+header {
+	display: flex;
+	justify-content: flex-end;
+	margin-right: 25px;
+}
+
+.tab {
+	/* display: flex; */
+	/* flex-direction: row; */
+	/* justify-content: space-between; */
+	align-items: center;
+	table-layout: auto;
+	width: 800px;
+	height: 100;
+	margin-bottom: 5px;
+	margin-left: 30px;
+	background-color: white;
+	border: 1px solid lightgray;
+	border-collapse: collapse;
+}
+
+.footer {
+	display: flex;
+	flex-direction: row;
+	margin-left: 30px;
+	line-height: 20px;
+	font-size: 13px;
+	font-weight: 520;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Type your code here */
+
+
+/* change the font family and spacing as per your project font */
+/*.footer {
+	display: flex;
+	flex-direction: row;
+	align-content: flex-end;
+	position: relative;
+	top: 750px;
+	margin-left: 80px;
+	font-size: 18px;
+	font-family: Nunito Sans;
+	font-style: normal;
+
+}
