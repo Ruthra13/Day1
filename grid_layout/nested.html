@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .grid-container {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            grid-gap: 1em;
+            grid-template-rows: 50vh 50vh;
+            justify-content: start;
+            align-items: start;
+        }
+
+        .grid-container>div {
+            padding: 1em;
+            background-color: gray;
+        }
+
+        .grid-container>div:nth-child(even) {
+            background-color: lightgray;
+        }
+
+        #div1 {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div id="div1">
+            <div>Lorem soluta.1</div>
+            <div>Lorem soluta.1</div>
+            <div>Lorem soluta.1</div>
+            <div>Lorem soluta.1</div>
+            <div>Lorem soluta.1</div>
+        </div>
+        <div>Lorem soluta.2</div>
+        <div>Lorem soluta.3</div>
+        <div>Lorem soluta.4</div>
+        <div>Lorem soluta.5</div>
+    </div>
+</body>
+
+</html>
